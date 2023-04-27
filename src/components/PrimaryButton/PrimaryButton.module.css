@@ -1,0 +1,25 @@
+.button {
+    position: relative;
+    display: block;
+    padding: 15px 43px;
+    text-decoration: none;
+    background-color: var(--color-btn-background);
+    color: var(--color-primary-text);
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid rgba(29, 29, 29, 0.2);
+    max-width: 140px;
+
+
+}
+
+.button::before {
+    display: block;
+    content: '';
+    position: absolute;
+    border: 1px solid rgba(29, 29, 29, 0.2);
+    width: 225px;
+    height: 55px;
+    top: 7px;
+    left: 7px;
+}

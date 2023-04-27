@@ -1,8 +1,8 @@
 {
-  "name": "react-homework-template",
+  "name": "wedding-invitation-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://goitacademy.github.io/react-homework-template/",
+  "homepage": "https://goitacademy.github.io/wedding-invitation-react/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
@@ -10,6 +10,7 @@
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-scripts": "5.0.1",
+    "react-slideshow-image": "^4.2.1",
     "web-vitals": "^2.1.3"
   },
   "scripts": {
@@ -36,5 +37,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was created with [Create React App](https://github.com/facebook/create-react-app). To get acquainted and configure additional features [refer to documentation](https://facebook.github.io/create-react-app/docs/getting-started).",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }

@@ -1,0 +1,45 @@
+.branchIcon {
+    display: block;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.invitationText {
+    text-align: center;
+    font-family: var(--font-primary);
+    font-size: 22px;
+}
+
+.invitationName {
+    font-family: 'Scriptorama';
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid #000;
+    max-width: 452px;
+    margin: 20 auto;
+}
+
+.calendar {
+    position: relative;
+    font-family: var(--font-primary);
+    margin: 65px auto;
+    max-width: 452px;
+    min-width: 320px;
+    height: auto;
+    border-spacing: 10px;
+    font-size: 19px;
+    text-align: center;
+}
+
+.calendarCaption {
+    margin-bottom: 27px;
+    font-size: 25px;
+}
+
+.iconHeart {
+    position: absolute;
+    bottom: 46;
+    right: 132;
+}

@@ -1,0 +1,63 @@
+.colorsWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 45px;
+}
+
+.color {
+    position: relative;
+    width: 40px;
+    height: 120px;
+    border: 0.1rem solid rgba(29, 29, 29, .2);
+}
+
+.black {
+    background-color: var(--color-primary-text);
+}
+
+.white {
+    background-color: rgb(255, 255, 254);
+}
+
+.beige {
+    background-color: rgb(241, 227, 202);
+}
+
+.color::after {
+    content: "";
+    opacity: .3;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0.3rem;
+    left: 0.3rem;
+    border: 0.1rem solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(180deg, #939393, #4e4e4e 90%, var(--color-primary-text));
+}
+
+.dressCodeTitle {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: .2em;
+    margin-bottom: 44px;
+    font-weight: normal;
+}
+
+.dressCodeDescription {
+    font-size: 20px;
+
+    text-align: center;
+}
+
+.branchIcon {
+    display: block;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}

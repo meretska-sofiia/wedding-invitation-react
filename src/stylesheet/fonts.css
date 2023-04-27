@@ -1,0 +1,7 @@
+ @font-face {
+     font-family: 'Scriptorama';
+     src: local('Scriptorama'), url('../fonts/scriptorama.ttf') format("truetype");
+     font-weight: normal;
+     font-style: normal;
+
+ }

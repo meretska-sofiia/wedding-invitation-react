@@ -1,0 +1,31 @@
+.mapTitle {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.mapAdress {
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.mapAdress:not(:last-child) {
+    margin-bottom: 7px;
+}
+
+.mapButton {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.branchIcon {
+    display: block;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}

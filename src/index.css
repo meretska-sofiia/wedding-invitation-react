@@ -1,4 +1,13 @@
-@import-normalize; /* bring in normalize.css styles */
+@import-normalize;
+@import url('/src/stylesheet/fonts.css');
+
+/* bring in normalize.css styles */
+:root {
+  --color-primary-text: #1d1d1d;
+  --color-background: #ffffff;
+  --color-btn-background: #fdfbf7;
+  --font-primary: 'Prata';
+}
 
 body {
   margin: 0;
@@ -7,6 +16,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Prata', sans-serif;
+  color: var(--color-primary-text);
 }
 
 code {

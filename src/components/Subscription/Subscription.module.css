@@ -1,0 +1,38 @@
+.photoContainer {
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.subscriptionPhoto {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+}
+
+.subscriptionText {
+    font-size: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.subscriptionButton {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.subscriptionIcon {
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+}

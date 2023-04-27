@@ -1,0 +1,52 @@
+.surveySection {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: var(--color-btn-background);
+    width: 100%;
+
+    @media screen and (min-width: 768px) {
+        width: 375px;
+    }
+}
+
+.questResponse {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.questResponse:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.buttonWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.surveyTitle {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.questName {
+    font-size: 22px;
+}
+
+.questResponsePS {
+    font-size: 20px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.active {
+    color: #fff;
+    background-color: var(--color-primary-text);
+}
