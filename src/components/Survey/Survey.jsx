@@ -42,6 +42,7 @@ const Survey = () => {
         },
       ]);
     }
+    // eslint-disable-next-line
   }, []);
 
   const handleWillCome = async id => {
