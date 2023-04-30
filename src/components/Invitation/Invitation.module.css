@@ -21,7 +21,13 @@
     margin: 20 auto;
 }
 
-.calendar {
+.datePicker {
+    width: 100%;
+    margin: 0;
+    display: block;
+}
+
+/* .calendar {
     position: relative;
     font-family: var(--font-primary);
     margin: 65px auto;
@@ -31,15 +37,15 @@
     border-spacing: 10px;
     font-size: 19px;
     text-align: center;
-}
+} */
 
-.calendarCaption {
+/* .calendarCaption {
     margin-bottom: 27px;
     font-size: 25px;
-}
+} */
 
-.iconHeart {
+/* .iconHeart {
     position: absolute;
-    bottom: 46;
-    right: 132;
-}
+    bottom: 46px;
+    right: 132px;
+} */

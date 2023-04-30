@@ -1,6 +1,7 @@
 import Section from 'components/Section/Section';
 import Container from 'components/Container/Container';
 import branchIcon from 'images/branch-icon.svg';
+import datePicker from 'images/date-picker.png';
 import sprite from 'images/symbol-defs.svg';
 
 import css from './Invitation.module.css';
@@ -23,8 +24,13 @@ const Invitation = ({ guestsNames }) => {
           <p className={css.invitationText}>
             З радістю запрошуємо вас на наше весілля, яке відбудеться:
           </p>
-
-          <table className={css.calendar}>
+          <img
+            src={datePicker}
+            alt="Date picker"
+            className={css.datePicker}
+            width={350}
+          />
+          {/* <table className={css.calendar}>
             <caption className={`${css.invitationText} ${css.calendarCaption}`}>
               Серпень 2023
             </caption>
@@ -92,7 +98,8 @@ const Invitation = ({ guestsNames }) => {
                 <td></td>
               </tr>
             </tbody>
-          </table>
+          </table> */}
+
           <p className={css.invitationText}>
             І ми не уявляємо цей радісний день без вас - близьких і дорогих нам
             людей!

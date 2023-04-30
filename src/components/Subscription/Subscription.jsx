@@ -3,7 +3,7 @@ import Container from 'components/Container/Container';
 import PrimaryButton from 'components/PrimaryButton/PrimaryButton';
 
 import css from './Subscription.module.css';
-import subscriptionPhoto from 'images/gallery-4.jpeg';
+import subscriptionPhoto from 'images/subscription.jpg';
 import sprite from 'images/symbol-defs.svg';
 
 const Subscription = () => {

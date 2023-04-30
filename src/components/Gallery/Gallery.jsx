@@ -1,10 +1,10 @@
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 
-import galleryPhoto1 from '../../images/gallery-1.jpeg';
-import galleryPhoto2 from '../../images/gallery-2.jpeg';
-import galleryPhoto3 from '../../images/gallery-3.jpeg';
-import galleryPhoto4 from '../../images/gallery-4.jpeg';
+import galleryPhoto1 from '../../images/gallery-1.jpg';
+import galleryPhoto2 from '../../images/gallery-2.jpg';
+import galleryPhoto3 from '../../images/gallery-3.jpg';
+import galleryPhoto4 from '../../images/gallery-4.jpg';
 import sprite from '../../images/symbol-defs.svg';
 
 import css from './Gallery.module.css';
