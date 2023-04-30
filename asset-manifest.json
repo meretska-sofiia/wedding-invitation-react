@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/wedding-invitation-react/static/css/main.6b673892.css",
-    "main.js": "/wedding-invitation-react/static/js/main.6a4f160a.js",
-    "static/media/hero.jpg": "/wedding-invitation-react/static/media/hero.66a548f83f3378ba7dc0.jpg",
-    "static/media/gallery-2.jpg": "/wedding-invitation-react/static/media/gallery-2.a29b2d108ffd5b314c1b.jpg",
-    "static/media/timer-bg.jpg": "/wedding-invitation-react/static/media/timer-bg.c9b26d1854806e923565.jpg",
-    "static/media/timing.jpg": "/wedding-invitation-react/static/media/timing.4105013185dbae950442.jpg",
-    "static/media/gallery-3.jpg": "/wedding-invitation-react/static/media/gallery-3.060df3e5acb336870f18.jpg",
-    "static/media/gallery-1.jpg": "/wedding-invitation-react/static/media/gallery-1.4cf2cb27817ff4d409b1.jpg",
-    "static/media/gallery-4.jpg": "/wedding-invitation-react/static/media/gallery-4.9f69894f80978802a7ee.jpg",
-    "static/media/subscription.jpg": "/wedding-invitation-react/static/media/subscription.9f69894f80978802a7ee.jpg",
+    "main.css": "/wedding-invitation-react/static/css/main.89355c81.css",
+    "main.js": "/wedding-invitation-react/static/js/main.74290d08.js",
+    "static/media/gallery-2.jpg": "/wedding-invitation-react/static/media/gallery-2.a90f3f68ed132b0d902d.jpg",
+    "static/media/timer-bg.jpg": "/wedding-invitation-react/static/media/timer-bg.2d65de1a0f1b9f6a44cd.jpg",
+    "static/media/timing.jpg": "/wedding-invitation-react/static/media/timing.8304b853c09aba06cb25.jpg",
+    "static/media/gallery-3.jpg": "/wedding-invitation-react/static/media/gallery-3.d824bf30fe3e4a2f87f2.jpg",
+    "static/media/hero.jpg": "/wedding-invitation-react/static/media/hero.edc2fd60c11ebf587dcb.jpg",
+    "static/media/gallery-1.jpg": "/wedding-invitation-react/static/media/gallery-1.dc5babf4c8e078e96e88.jpg",
+    "static/media/gallery-4.jpg": "/wedding-invitation-react/static/media/gallery-4.2a53da61b429876c69d9.jpg",
+    "static/media/subscription.jpg": "/wedding-invitation-react/static/media/subscription.2a53da61b429876c69d9.jpg",
     "static/media/scriptorama.ttf": "/wedding-invitation-react/static/media/scriptorama.315a42908f17a0f2aff0.ttf",
     "static/media/date-picker.png": "/wedding-invitation-react/static/media/date-picker.f35cac520865838fca6c.png",
     "static/media/hero-3.svg": "/wedding-invitation-react/static/media/hero-3.a27bd7a986f87b6dbb27a9264ac601e5.svg",
     "static/media/branch-icon.svg": "/wedding-invitation-react/static/media/branch-icon.d24995a68f13cdd9750937ec5aa340df.svg",
     "static/media/symbol-defs.svg": "/wedding-invitation-react/static/media/symbol-defs.4c3c43b7ad433131953dc6cdba44839f.svg",
     "index.html": "/wedding-invitation-react/index.html",
-    "main.6b673892.css.map": "/wedding-invitation-react/static/css/main.6b673892.css.map",
-    "main.6a4f160a.js.map": "/wedding-invitation-react/static/js/main.6a4f160a.js.map"
+    "main.89355c81.css.map": "/wedding-invitation-react/static/css/main.89355c81.css.map",
+    "main.74290d08.js.map": "/wedding-invitation-react/static/js/main.74290d08.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b673892.css",
-    "static/js/main.6a4f160a.js"
+    "static/css/main.89355c81.css",
+    "static/js/main.74290d08.js"
   ]
 }
