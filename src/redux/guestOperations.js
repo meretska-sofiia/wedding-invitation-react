@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { createAsyncThunk } from '@reduxjs/toolkit';
 
-axios.defaults.baseURL = 'http://localhost:4000/api/guest';
+axios.defaults.baseURL = 'https://wedding-invitation-8vjm.onrender.com';
 
 export const guestInfoThunk = createAsyncThunk(
   '/guestInfoThunk',
