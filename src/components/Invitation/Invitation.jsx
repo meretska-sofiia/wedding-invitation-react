@@ -5,7 +5,7 @@ import sprite from 'images/symbol-defs.svg';
 
 import css from './Invitation.module.css';
 
-const Invitation = () => {
+const Invitation = ({ guestsNames }) => {
   return (
     <>
       <Section>
@@ -18,7 +18,7 @@ const Invitation = () => {
           />
           <p className={css.invitationText}>Дорогі,</p>
 
-          <p className={css.invitationName}>Olexandr, Lina</p>
+          <p className={css.invitationName}>{guestsNames.join(', ')}</p>
 
           <p className={css.invitationText}>
             З радістю запрошуємо вас на наше весілля, яке відбудеться:

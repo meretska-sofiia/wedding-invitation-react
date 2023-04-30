@@ -1,8 +1,12 @@
 import css from './SecondaryButton.module.css';
 
-const SecondaryButton = ({ text, className }) => {
+const SecondaryButton = ({ text, className, onClick }) => {
   return (
-    <button type="submit" className={`${css.secondaryButton} ${className}`}>
+    <button
+      type="submit"
+      className={`${css.secondaryButton} ${className}`}
+      onClick={onClick}
+    >
       {text}
     </button>
   );
