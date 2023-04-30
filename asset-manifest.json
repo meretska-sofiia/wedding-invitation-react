@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wedding-invitation-react/static/css/main.48ef0730.css",
-    "main.js": "/wedding-invitation-react/static/js/main.d1b22b5c.js",
+    "main.js": "/wedding-invitation-react/static/js/main.c1be060e.js",
     "static/media/timer-bg.jpg": "/wedding-invitation-react/static/media/timer-bg.bd982976941779e54c63.jpg",
     "static/media/hero.jpg": "/wedding-invitation-react/static/media/hero.4ea2fdf8c385e03a9694.jpg",
     "static/media/gallery-1.jpeg": "/wedding-invitation-react/static/media/gallery-1.75b8dc5550d5e9c577a1.jpeg",
@@ -14,10 +14,10 @@
     "static/media/symbol-defs.svg": "/wedding-invitation-react/static/media/symbol-defs.4c3c43b7ad433131953dc6cdba44839f.svg",
     "index.html": "/wedding-invitation-react/index.html",
     "main.48ef0730.css.map": "/wedding-invitation-react/static/css/main.48ef0730.css.map",
-    "main.d1b22b5c.js.map": "/wedding-invitation-react/static/js/main.d1b22b5c.js.map"
+    "main.c1be060e.js.map": "/wedding-invitation-react/static/js/main.c1be060e.js.map"
   },
   "entrypoints": [
     "static/css/main.48ef0730.css",
-    "static/js/main.d1b22b5c.js"
+    "static/js/main.c1be060e.js"
   ]
 }
