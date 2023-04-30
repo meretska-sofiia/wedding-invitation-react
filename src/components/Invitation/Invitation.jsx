@@ -2,7 +2,6 @@ import Section from 'components/Section/Section';
 import Container from 'components/Container/Container';
 import branchIcon from 'images/branch-icon.svg';
 import datePicker from 'images/date-picker.png';
-import sprite from 'images/symbol-defs.svg';
 
 import css from './Invitation.module.css';
 
