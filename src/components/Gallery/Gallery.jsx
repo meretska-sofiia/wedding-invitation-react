@@ -35,18 +35,34 @@ const properties = {
 const Gallery = () => {
   return (
     <>
-      <Slide {...properties} responsive>
+      <Slide {...properties}>
         <div className={css.slide}>
-          <img src={galleryPhoto1} alt="" className={css.galleryPhoto} />
+          <img
+            src={galleryPhoto1}
+            alt="Two people"
+            className={css.galleryPhoto}
+          />
         </div>
         <div className={css.slide}>
-          <img src={galleryPhoto2} alt="" className={css.galleryPhoto} />
+          <img
+            src={galleryPhoto2}
+            alt="Two people"
+            className={css.galleryPhoto}
+          />
         </div>
         <div className={css.slide}>
-          <img src={galleryPhoto3} alt="" className={css.galleryPhoto} />
+          <img
+            src={galleryPhoto3}
+            alt="Two people"
+            className={css.galleryPhoto}
+          />
         </div>
         <div className={css.slide}>
-          <img src={galleryPhoto4} alt="" className={css.galleryPhoto} />
+          <img
+            src={galleryPhoto4}
+            alt="Two people"
+            className={css.galleryPhoto}
+          />
         </div>
       </Slide>
     </>
