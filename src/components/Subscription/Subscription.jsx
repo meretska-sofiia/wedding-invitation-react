@@ -21,7 +21,7 @@ const Subscription = () => {
             створили групу в Telegram
           </p>
           <PrimaryButton
-            href="#"
+            href="https://t.me/+YKg7XKi7T7IzZjMy"
             text={'приєднатися'}
             className={css.subscriptionButton}
           >

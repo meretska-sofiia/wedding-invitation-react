@@ -19,7 +19,7 @@ const Timing = () => {
           <h2 className={css.timingTitle}>Таймінг дня</h2>
           <div className={css.timingContainer}>
             <div className={css.timingWrapper}>
-              <p className={css.time}>12:00</p>
+              <p className={css.time}>12:30</p>
               <p className={css.timingDescription}>Збір гостей</p>
             </div>
             <div className={css.timingWrapper}>
