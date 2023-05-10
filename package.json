@@ -28,6 +28,9 @@
     "deploy": "netlify deploy -p",
     "predeploy": "npm run build"
   },
+    "build": {
+    "outputPath": "build/"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
