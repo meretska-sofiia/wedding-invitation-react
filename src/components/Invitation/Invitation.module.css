@@ -26,26 +26,3 @@
     margin: 0;
     display: block;
 }
-
-/* .calendar {
-    position: relative;
-    font-family: var(--font-primary);
-    margin: 65px auto;
-    max-width: 452px;
-    min-width: 320px;
-    height: auto;
-    border-spacing: 10px;
-    font-size: 19px;
-    text-align: center;
-} */
-
-/* .calendarCaption {
-    margin-bottom: 27px;
-    font-size: 25px;
-} */
-
-/* .iconHeart {
-    position: absolute;
-    bottom: 46px;
-    right: 132px;
-} */

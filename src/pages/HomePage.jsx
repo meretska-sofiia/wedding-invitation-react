@@ -10,10 +10,12 @@ import Timer from 'components/Timer/Timer';
 import Map from 'components/Map/Map';
 import Survey from 'components/Survey/Survey';
 import DressCode from 'components/DressCode/DressCode';
-import Gallery from 'components/Gallery/Gallery';
+
 import Timing from 'components/Timing/Timing';
 import Subscription from 'components/Subscription/Subscription';
-
+import Gifts from 'components/Gigts/Gifts';
+import Carousel from 'components/Carousel/Carousel';
+import css from './HomePage.module.css';
 const HomePage = () => {
   const dispatch = useDispatch();
   const guestNames = useSelector(guests);
@@ -29,15 +31,17 @@ const HomePage = () => {
   const names = [guest1, guest2, guest3, guest4].filter(Boolean);
 
   return (
-    <div>
+    <div className={css.pageContainer}>
       <Hero />
       <Invitation guestsNames={names} />
       <Timer />
       <Map />
       <Survey />
       <DressCode />
-      <Gallery />
+
+      <Carousel />
       <Timing />
+      <Gifts />
       <Subscription />
     </div>
   );

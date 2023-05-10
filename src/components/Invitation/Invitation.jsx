@@ -16,7 +16,11 @@ const Invitation = ({ guestsNames }) => {
             width="60"
             className={css.branchIcon}
           />
-          <p className={css.invitationText}>Дорогі,</p>
+          {guestsNames.length === 1 ? (
+            <p className={css.invitationText}>Дорога(ий),</p>
+          ) : (
+            <p className={css.invitationText}>Дорогі,</p>
+          )}
 
           <p className={css.invitationName}>{guestsNames.join(', ')}</p>
 
@@ -36,7 +40,6 @@ const Invitation = ({ guestsNames }) => {
           </p>
         </Container>
       </Section>
-      ;
     </>
   );
 };

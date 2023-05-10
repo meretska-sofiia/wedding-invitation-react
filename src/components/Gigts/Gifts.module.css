@@ -1,0 +1,33 @@
+.giftSection {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: #fdfbf7;
+    width: 100%;
+
+    @media screen and (min-width: 768px) {
+        width: 375px;
+
+    }
+}
+
+.giftTitle {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    /* background-color: #f0e5cf; */
+}
+
+.giftText {
+    font-size: 20px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.branchIcon {
+    display: block;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}

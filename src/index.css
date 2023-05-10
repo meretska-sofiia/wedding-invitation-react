@@ -5,7 +5,8 @@
 :root {
   --color-primary-text: #1d1d1d;
   --color-background: #ffffff;
-  --color-btn-background: #fdfbf7;
+  --color-btn-background: rgb(245, 111, 161, 0.2);
+
   --font-primary: 'Prata';
 }
 

@@ -1,8 +1,28 @@
+.dressCodeSection {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: #fdfbf7;
+    width: 100%;
+
+    @media screen and (min-width: 768px) {
+        width: 375px;
+    }
+}
+
 .colorsWrapper {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
     margin-top: 45px;
+}
+
+.colorWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: calc((100% - 15px) / 4);
 }
 
 .color {
@@ -12,17 +32,13 @@
     border: 0.1rem solid rgba(29, 29, 29, .2);
 }
 
-.black {
-    background-color: var(--color-primary-text);
+.colorDescription {
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+    display: block;
 }
 
-.white {
-    background-color: rgb(255, 255, 254);
-}
-
-.beige {
-    background-color: rgb(241, 227, 202);
-}
 
 .color::after {
     content: "";
@@ -51,7 +67,6 @@
 
 .dressCodeDescription {
     font-size: 20px;
-
     text-align: center;
 }
 
@@ -60,4 +75,11 @@
     margin-bottom: 30px;
     margin-right: auto;
     margin-left: auto;
+}
+
+.dressCodeColor {
+    display: block;
+    height: auto;
+    width: 100%;
+    margin: 0;
 }

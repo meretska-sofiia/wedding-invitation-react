@@ -1,0 +1,32 @@
+.galleryPhoto {
+    margin: 0;
+    width: 100%;
+    height: auto;
+
+}
+
+.slider {
+    position: relative;
+
+    @media screen and (min-width: 768px) {
+        width: 375px;
+    }
+}
+
+.buttonWest {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background-color: transparent;
+    border: none;
+    transform: translate(0, -50%);
+}
+
+.buttonEast {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    background-color: transparent;
+    border: none;
+    transform: translate(0, -50%);
+}

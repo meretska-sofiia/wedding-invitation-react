@@ -1,0 +1,9 @@
+.pageContainer {
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #f0e5cf;
+    }
+}

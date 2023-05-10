@@ -1,7 +1,7 @@
 .surveySection {
     padding-top: 100px;
     padding-bottom: 50px;
-    background-color: var(--color-btn-background);
+    background-color: #fff;
     width: 100%;
 
     @media screen and (min-width: 768px) {

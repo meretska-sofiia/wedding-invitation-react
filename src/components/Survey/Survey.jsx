@@ -102,12 +102,11 @@ const Survey = () => {
                     <SecondaryButton
                       onClick={() => handleWillCome(guest?.id)}
                       text="Так"
-                      className={`${css.firstSurveyButton}`}
                     />
                     <SecondaryButton
                       onClick={() => handleWontCome(guest.id)}
                       text="Ні"
-                      className={`${css.firstSurveyButton} ${css.active}`}
+                      className={` ${css.active}`}
                     />
                   </div>
                 ) : (
@@ -115,12 +114,11 @@ const Survey = () => {
                     <SecondaryButton
                       onClick={() => handleWillCome(guest.id)}
                       text="Так"
-                      className={`${css.firstSurveyButton} ${css.active}`}
+                      className={` ${css.active}`}
                     />
                     <SecondaryButton
                       onClick={() => handleWontCome(guest.id)}
                       text="Ні"
-                      className={`${css.firstSurveyButton} `}
                     />{' '}
                   </div>
                 )}
