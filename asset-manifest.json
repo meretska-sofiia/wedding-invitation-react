@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.86048b60.css",
-    "main.js": "/static/js/main.6933e01b.js",
+    "main.css": "/static/css/main.5e579a36.css",
+    "main.js": "/static/js/main.a7bca18c.js",
     "static/media/gallery-2.jpg": "/static/media/gallery-2.a90f3f68ed132b0d902d.jpg",
     "static/media/timer-bg.jpg": "/static/media/timer-bg.2d65de1a0f1b9f6a44cd.jpg",
     "static/media/timing.jpg": "/static/media/timing.8304b853c09aba06cb25.jpg",
@@ -13,14 +13,20 @@
     "static/media/scriptorama.ttf": "/static/media/scriptorama.315a42908f17a0f2aff0.ttf",
     "static/media/date-picker.png": "/static/media/date-picker.f35cac520865838fca6c.png",
     "static/media/hero-3.svg": "/static/media/hero-3.a27bd7a986f87b6dbb27a9264ac601e5.svg",
+    "static/media/gold.png": "/static/media/gold.2cf3d1eb3c37ba516cda.png",
+    "static/media/pink.png": "/static/media/pink.7a4880c449b4211688bc.png",
+    "static/media/rose.png": "/static/media/rose.dcb04fd22b102e12060d.png",
+    "static/media/white.png": "/static/media/white.e227bc334a95c814e4e3.png",
     "static/media/branch-icon.svg": "/static/media/branch-icon.d24995a68f13cdd9750937ec5aa340df.svg",
-    "static/media/symbol-defs.svg": "/static/media/symbol-defs.4c3c43b7ad433131953dc6cdba44839f.svg",
+    "static/media/symbol-defs.svg": "/static/media/symbol-defs.be800ef35a86e7b10ef608d33ae914fc.svg",
+    "static/media/west.svg": "/static/media/west.96885df194009f9d210e88f93506662d.svg",
+    "static/media/east.svg": "/static/media/east.8e084dfa6f30434a25c1eeaea7b6cd6d.svg",
     "index.html": "/index.html",
-    "main.86048b60.css.map": "/static/css/main.86048b60.css.map",
-    "main.6933e01b.js.map": "/static/js/main.6933e01b.js.map"
+    "main.5e579a36.css.map": "/static/css/main.5e579a36.css.map",
+    "main.a7bca18c.js.map": "/static/js/main.a7bca18c.js.map"
   },
   "entrypoints": [
-    "static/css/main.86048b60.css",
-    "static/js/main.6933e01b.js"
+    "static/css/main.5e579a36.css",
+    "static/js/main.a7bca18c.js"
   ]
 }
