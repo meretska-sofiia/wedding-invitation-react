@@ -18,7 +18,7 @@ const Survey = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    if (guestsInfo) {
+    if (Object.keys(guestsInfo).length > 0) {
       setGuestsState([
         {
           id: 'willCome1',
@@ -50,13 +50,11 @@ const Survey = () => {
       const guestIndex = guestsState.findIndex(guest => guest.id === id);
       guestsState[guestIndex].willCome = true;
       setGuestsState([...guestsState]);
-      console.log(guestsState);
 
       if (guestsState[guestIndex].willCome) {
         await dispatch(
           willComeThunk({
             [guestsState[guestIndex].id]: guestsState[guestIndex]?.willCome,
-            userId: '644b820456a34a61c04de710',
           })
         );
       }
@@ -75,7 +73,6 @@ const Survey = () => {
         await dispatch(
           willComeThunk({
             [guestsState[guestIndex].id]: guestsState[guestIndex]?.willCome,
-            userId: '644b820456a34a61c04de710',
           })
         );
       }

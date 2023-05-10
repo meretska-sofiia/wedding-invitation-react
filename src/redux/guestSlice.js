@@ -14,6 +14,8 @@ const guestSlice = createSlice({
     builder
       .addCase(guestInfoThunk.pending, state => {
         state.isLoading = true;
+        state.guests = null;
+        state.error = null;
       })
       .addCase(guestInfoThunk.fulfilled, (state, { payload }) => {
         state.guests = payload;
