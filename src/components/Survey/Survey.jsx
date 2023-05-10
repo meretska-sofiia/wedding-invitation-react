@@ -95,7 +95,7 @@ const Survey = () => {
           if (guest.guest) {
             return (
               <div key={guest.id} className={css.questResponse}>
-                <p className={css.questName}>{guest.guest}</p>
+                <p className={css.questName}>{guest.guest && ' '}</p>
 
                 {!guest.willCome ? (
                   <div className={css.buttonWrapper}>
