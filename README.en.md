@@ -13,9 +13,7 @@ of your project. To use it just tap the `«Use this template»` button and choos
 
 ![Creating repo from a template step 1](./assets/template-step-1.png)
 
-The page for creating a new repository will open on the next step. Fill out
-the Name field and make sure the repository is public, then click
-`«Create repository from template»` button.
+
 
 ![Creating repo from a template step 2](./assets/template-step-2.png)
 
