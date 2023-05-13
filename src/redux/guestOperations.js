@@ -4,9 +4,6 @@ import { createAsyncThunk } from '@reduxjs/toolkit';
 axios.defaults.baseURL =
   'https://wedding-invitation-8vjm.onrender.com/api/guest';
 
-axios.defaults.headers.common['Access-Control-Allow-Origin'] =
-  'https://wedding-invitation-elya-kostya.netlify.app';
-
 export const guestInfoThunk = createAsyncThunk(
   '/guestInfoThunk',
   async (_, thunkAPI) => {
