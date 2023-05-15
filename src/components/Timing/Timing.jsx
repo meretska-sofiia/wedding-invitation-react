@@ -2,7 +2,7 @@ import Section from 'components/Section/Section';
 import Container from 'components/Container/Container';
 
 import branchIcon from 'images/branch-icon.svg';
-import timingPhoto from 'images/timing.jpg';
+import timingPhoto from 'images/timing.JPG';
 import css from './Timing.module.css';
 
 const Timing = () => {
