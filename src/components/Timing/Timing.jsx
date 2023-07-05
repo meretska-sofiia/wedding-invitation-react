@@ -19,23 +19,23 @@ const Timing = () => {
           <h2 className={css.timingTitle}>Таймінг дня</h2>
           <div className={css.timingContainer}>
             <div className={css.timingWrapper}>
-              <p className={css.time}>12:30</p>
+              <p className={css.time}>13:30</p>
               <p className={css.timingDescription}>Збір гостей</p>
             </div>
             <div className={css.timingWrapper}>
-              <p className={css.time}>13:00</p>
+              <p className={css.time}>14:00</p>
               <p className={css.timingDescription}>Церемонія</p>
             </div>
             <div className={css.timingWrapper}>
-              <p className={css.time}>13:30</p>
+              <p className={css.time}>14:30</p>
               <p className={css.timingDescription}>Фотосесія з гостями</p>
             </div>
             <div className={css.timingWrapper}>
-              <p className={css.time}>14:00</p>
+              <p className={css.time}>15:00</p>
               <p className={css.timingDescription}>Банкет</p>
             </div>
             <div className={css.timingWrapper}>
-              <p className={css.time}>15:30</p>
+              <p className={css.time}>16:30</p>
               <p className={css.timingDescription}>Танок молодят</p>
             </div>
             <div className={css.timingWrapper}>
