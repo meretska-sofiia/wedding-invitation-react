@@ -19,7 +19,7 @@ const Map = () => {
           <h2 className={css.mapTitle}>ЦЕРЕМОНІЯ ТА БАНКЕТ</h2>
           <p className={css.mapAdress}>вул. Виноградна, Київ</p>
           <p className={css.mapAdress}>Osocor Restaurant</p>
-          <p className={css.mapAdress}>Початок о 13:00</p>
+          <p className={css.mapAdress}>Початок о 14:00</p>
           <PrimaryButton
             href={'https://goo.gl/maps/zTmQPoHecfJXfCXs9'}
             className={css.mapButton}
